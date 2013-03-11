@@ -70,7 +70,7 @@
 		<echo message="DONE (Copying icons files to 'res/drawable/' folder)" />
 	</target>
 
-  <target name="-pre-build" depends="init, resources, native">
+  <target name="pre-build" depends="init, resources, native">
   </target>
 <!--
   <target name="-pre-compile">
